@@ -25,7 +25,10 @@ li {
 /*flex*/
 .flex {
   display: flex;
+
+
 }
+
 
 .item-center {
   align-items: center;
@@ -39,4 +42,34 @@ li {
 /*padding*/
 .px-10 {
   padding: 10px 0px;
+}
+
+.px-50 {
+  padding: 50px 0px;
+}
+
+/* bg*/
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-primary {
+  background-color: #0282f9;
+  ;
+}
+
+/*text color*/
+.tx-white {
+  color: #ffffff;
+}
+
+/* image height*/
+.w-40 {
+  width: 20%;
+}
+
+
+/* gap*/
+.gap15 {
+  gap: 1.5rem;
 }
