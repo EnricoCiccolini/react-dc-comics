@@ -12,7 +12,7 @@ export default function Main() {
 
                 <div className="bg-primary">
                     <div className="container">
-                        <ul className="flex gap15 item-center tx-white">
+                        <ul className="flex gap15 item-center tx-white px-50">
                             <li>
                                 <img className="w-40" src="../../buy-comics-digital-comics.png" alt="Digital comics" />
                                 <span>DIGITAL COMICS</span>
@@ -43,9 +43,6 @@ export default function Main() {
                     </div>
 
                 </div>
-
-
-
             </main>
         </>)
 

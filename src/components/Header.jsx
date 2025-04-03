@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <>
 
-            <header>
+            <header className="bg-white">
                 <div className="container px-10">
                     <nav className="flex space-beet">
                         <Logo />
