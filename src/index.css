@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  padding: 10px 10px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+
+/*flex*/
+.flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.space-beet {
+  justify-content: space-between;
+}
+
+
+/*padding*/
+.px-10 {
+  padding: 10px 0px;
+}
