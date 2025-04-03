@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 ul {
   list-style: none;
 
 }
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 
 li {
   padding: 10px 10px;
@@ -50,6 +60,10 @@ li {
 }
 
 /* bg*/
+body {
+  background-color: #303030;
+}
+
 .bg-white {
   background-color: #ffffff;
 }
@@ -76,6 +90,9 @@ li {
   color: #ffffff;
 }
 
+.tx-primary {
+  color: #0282f9;
+}
 
 
 /* image height*/
@@ -109,10 +126,16 @@ li {
   opacity: 0.5;
 }
 
-footer li {
-  opacity: 0.5;
+/*button*/
+.ft-button {
+  background: transparent;
+  border: 2px solid #0282f9;
+  color: #0282f9;
+  padding: 10px;
 }
 
-footer li h3 {
-  opacity: 1;
+/*hover*/
+header li :hover {
+  color: #0282f9;
+  border-bottom: 2px solid #0282f9;
 }
