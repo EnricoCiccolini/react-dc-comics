@@ -4,6 +4,7 @@
 import Header from './components/Header'
 import Main from './components/main'
 import Footer from './components/footer'
+import BluNav from './components/blunav'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header />
       <Main></Main>
+      <BluNav></BluNav>
       <Footer></Footer>
     </>
   )

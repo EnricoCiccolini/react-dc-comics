@@ -24,7 +24,7 @@ li {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 80%;
   margin: 0 auto;
 }
@@ -79,6 +79,7 @@ body {
 
 .bg-heros {
   background-image: url(../public/footer-bg.jpg);
+  background-size: cover;
 }
 
 .bg-grey {
@@ -113,12 +114,15 @@ body {
 /*position*/
 .position-image {
   position: absolute;
-  right: 30px;
-  top: -60px;
+  right: 300px;
+  top: -110px;
+  width: 30%;
+
 }
 
 .relative {
   position: relative;
+  z-index: 1;
 }
 
 /*opacity*/
@@ -138,4 +142,12 @@ body {
 header li :hover {
   color: #0282f9;
   border-bottom: 2px solid #0282f9;
+}
+
+footer li {
+  padding: 0px 10px;
+}
+
+footer ul {
+  margin: 20px 20px;
 }

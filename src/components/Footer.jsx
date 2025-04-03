@@ -4,7 +4,7 @@ export default function Footer() {
             <footer className="relative tx-white">
 
                 <div className="bg-heros">
-                    <div className="container">
+                    <div className="container px-20">
                         <div className="flex">
                             <div>
 
@@ -54,14 +54,15 @@ export default function Footer() {
                                     <li className="opacity5">Dc Power Vista</li>
                                 </ul>
                             </div>
-
-                            <img className="position-image" src="public\dc-logo-bg.png" alt="" />
+                            <div className=" position-image">
+                                <img src="public\dc-logo-bg.png" alt="" />
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
-                <div className="bg-grey relative">
+                <div className="bg-grey relative px-20">
                     <div className="container">
                         <div className="flex space-beet item-center ">
                             <button className="ft-button">SIGN UP NOW</button>

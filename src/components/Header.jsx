@@ -9,7 +9,7 @@ export default function Header() {
         <>
 
             <header className="bg-white">
-                <div className="container px-10">
+                <div className="container px-20">
                     <nav className="flex space-beet">
                         <Logo />
                         <ul className="flex item-center">
