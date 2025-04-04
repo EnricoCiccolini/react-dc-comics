@@ -6,13 +6,15 @@ import Main from './components/main'
 import Footer from './components/footer'
 import BluNav from './components/blunav'
 
+const linkNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOPS']
+
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Main></Main>
+      <Header array={linkNav} />
+      <Main  ></Main>
       <BluNav></BluNav>
       <Footer></Footer>
     </>
