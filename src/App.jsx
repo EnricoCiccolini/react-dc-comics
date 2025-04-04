@@ -7,7 +7,7 @@ import Footer from './components/footer'
 import BluNav from './components/blunav'
 
 const linkNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOPS']
-
+const linkFooter1 = ['Characters', 'Comics', 'Movies', 'Tv', 'Gasmes', 'Video', 'News']
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
       <Header array={linkNav} />
       <Main  ></Main>
       <BluNav></BluNav>
-      <Footer></Footer>
+      <Footer array={linkFooter1}></Footer>
     </>
   )
 }

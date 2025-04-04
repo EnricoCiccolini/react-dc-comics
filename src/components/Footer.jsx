@@ -1,4 +1,6 @@
-export default function Footer() {
+import Linkgenerator from "./LinkGenerator"
+export default function Footer(link) {
+
     return (
         <>
             <footer className="relative tx-white">
@@ -9,18 +11,20 @@ export default function Footer() {
                             <div>
 
                                 <ul>
-                                    <li><h3>DC COMICS</h3></li>
-                                    <li className="opacity5">Characters</li>
+                                    <h3>DC COMICS</h3>
+                                    {/* <li className="opacity5">Characters</li>
                                     <li className="opacity5">Comics</li>
                                     <li className="opacity5">Movies</li>
                                     <li className="opacity5">Tv</li>
                                     <li className="opacity5">Gasmes</li>
                                     <li className="opacity5">Video</li>
-                                    <li className="opacity5">News</li>
+                                    <li className="opacity5">News</li> */}
+                                    {Linkgenerator(link)}
+
                                 </ul>
 
                                 <ul>
-                                    <li><h3>SHOP</h3></li>
+                                    <h3>SHOP</h3>
                                     <li className="opacity5" >Shop DC</li>
                                     <li className="opacity5">Shop Dc Collectibles</li>
                                 </ul>
@@ -28,7 +32,7 @@ export default function Footer() {
                             <div>
 
                                 <ul>
-                                    <li><h3>DC</h3></li>
+                                    <h3>DC</h3>
                                     <li className="opacity5">Term Of Use</li>
                                     <li className="opacity5">Privacy policy(New)</li>
                                     <li className="opacity5">Ad Choices</li>
@@ -46,7 +50,7 @@ export default function Footer() {
                             <div>
 
                                 <ul>
-                                    <li><h3>SITES</h3></li>
+                                    <h3>SITES</h3>
                                     <li className="opacity5">DC</li>
                                     <li className="opacity5">MAD Magazine</li>
                                     <li className="opacity5">DC Kids</li>

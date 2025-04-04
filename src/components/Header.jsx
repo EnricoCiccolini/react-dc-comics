@@ -4,9 +4,9 @@ import Linkgenerator from "./LinkGenerator"
 export default function Header(link) {
     //const linkNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOPS']
 
-    // console.log(link)
-    // const link2 = link.array
-    // console.log(link2)
+
+    const link2 = link.array
+
 
     return (
         <>

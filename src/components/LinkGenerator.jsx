@@ -1,9 +1,10 @@
 export default function Linkgenerator(link) {
     //const linkNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOPS']
 
-    console.log(link)
+
     const link2 = link.array
-    console.log(link2)
+
+
 
     return (
         <>

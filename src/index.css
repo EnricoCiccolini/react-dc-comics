@@ -146,6 +146,7 @@ header li :hover {
 
 footer li {
   padding: 0px 10px;
+  opacity: 0.5;
 }
 
 footer ul {
