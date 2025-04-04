@@ -1,11 +1,11 @@
 import Logo from "./logo"
 import Linkgenerator from "./LinkGenerator"
 
-export default function Header(link) {
+export default function Header({ array }) {
     //const linkNav = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOPS']
 
 
-    const link2 = link.array
+
 
 
     return (
@@ -16,8 +16,8 @@ export default function Header(link) {
                     <nav className="flex space-beet">
                         <Logo />
                         <ul className="flex item-center">
-                            {/* {link2.map((l, i) => <li key={i}><a href="">{l}</a></li>)} */}
-                            {Linkgenerator(link)}
+                            {/* {array.map((l, i) => <li key={i}><a href="">{l}</a></li>)} */}
+                            <Linkgenerator link={array} />
                         </ul>
 
                     </nav>

@@ -12,14 +12,14 @@ export default function Footer(link) {
 
                                 <ul>
                                     <h3>DC COMICS</h3>
-                                    {/* <li className="opacity5">Characters</li>
+                                    <li className="opacity5">Characters</li>
                                     <li className="opacity5">Comics</li>
                                     <li className="opacity5">Movies</li>
                                     <li className="opacity5">Tv</li>
                                     <li className="opacity5">Gasmes</li>
                                     <li className="opacity5">Video</li>
-                                    <li className="opacity5">News</li> */}
-                                    {Linkgenerator(link)}
+                                    <li className="opacity5">News</li>
+
 
                                 </ul>
 
