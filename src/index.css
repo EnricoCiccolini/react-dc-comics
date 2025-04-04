@@ -144,9 +144,11 @@ header li :hover {
   border-bottom: 2px solid #0282f9;
 }
 
-footer li {
+footer li a {
+  color: #ffffff;
   padding: 0px 10px;
   opacity: 0.5;
+
 }
 
 footer ul {
