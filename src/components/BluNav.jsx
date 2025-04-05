@@ -1,29 +1,8 @@
-const bluNavArray = [
-    {
-        'url': '../../buy-comics-digital-comics.png',
-        'title': 'DIGITAL COMICS'
-    },
-    {
-        'url': '../../buy-comics-merchandise.png',
-        'title': 'DC MERCHANDISE'
-    },
-    {
-        'url': '../../buy-comics-subscriptions.png',
-        'title': 'SUBSCRIPTION'
-    },
-    {
-        'url': '../../buy-comics-shop-locator.png',
-        'title': 'COMICS SHOP LOCATOR'
-    },
-    {
-        'url': '../../buy-dc-power-visa.svg',
-        'title': 'DC POWER VISA'
-    }
-
-]
 
 
-export default function BluNav() {
+
+export default function BluNav(link) {
+    const link2 = link.array
     return (
         <>
             <div className="bg-primary relative">
@@ -54,7 +33,7 @@ export default function BluNav() {
 
                             <span>DC POWER VISA</span>
                         </li> */}
-                        {bluNavArray.map((l, i) => <li key={i} className="flex item-center gap10 " ><img className="w-40" src={l.url} alt={l.title} /> <span>{l.title}</span></li>)}
+                        {link2.map((l, i) => <li key={i} className="flex item-center gap10 " ><img className="w-40" src={l.url} alt={l.title} /> <span>{l.title}</span></li>)}
                     </ul>
                 </div>
 
