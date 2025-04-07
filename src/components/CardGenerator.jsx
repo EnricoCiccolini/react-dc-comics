@@ -1,14 +1,14 @@
-import array from '../data/comics'
-export default function CardGenerator({ link }) {
+
+export default function CardGenerator({ array }) {
 
 
-    console.log(array[0])
+
 
 
 
     return (
         <>
-            {array.map((l, i) => <div className='card' key={l.id} ><div ><img className='imagecard' src={l.thumb} alt="" /></div><h2>{l.title}</h2></div>
+            {array.map((l, i) => <div className='card' key={l.id} ><div ><img className='imagecard' src={l.thumb} alt={l.series} /></div><h2>{l.series}</h2></div>
             )}
         </>
     )

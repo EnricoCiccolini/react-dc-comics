@@ -166,3 +166,11 @@ footer ul {
 .imagecard {
   width: 100%
 }
+
+
+.btn-load {
+  justify-self: center;
+  color: white;
+  background: #0282f9;
+  padding: 5px;
+}

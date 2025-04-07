@@ -1,4 +1,6 @@
 import CardGenerator from "./CardGenerator"
+
+import array from '../data/comics'
 export default function Main() {
 
     const content = '-->content goes here <--'
@@ -6,10 +8,11 @@ export default function Main() {
         <>
             <main>
                 <div className=" bg-black flex tx-white gap10 wrap">
-                    <CardGenerator />
+                    <CardGenerator array={array} />
                 </div>
-                <button>load more</button>
-
+                <div>
+                    <button className="flex btn-load">load more</button>
+                </div>
             </main>
         </>)
 
