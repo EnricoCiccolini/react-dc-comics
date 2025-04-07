@@ -36,6 +36,10 @@ li {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 
 .item-center {
   align-items: center;
@@ -153,4 +157,12 @@ footer li a {
 
 footer ul {
   margin: 20px 20px;
+}
+
+.card {
+  width: calc(100% / 7);
+}
+
+.imagecard {
+  width: 100%
 }
