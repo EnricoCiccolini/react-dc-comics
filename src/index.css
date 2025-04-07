@@ -161,10 +161,14 @@ footer ul {
 
 .card {
   width: calc(100% / 7);
+  padding: 10px;
 }
 
 .imagecard {
-  width: 100%
+  height: 200px;
+  width: 200px;
+
+  object-fit: fill;
 }
 
 
@@ -173,4 +177,15 @@ footer ul {
   color: white;
   background: #0282f9;
   padding: 5px;
+}
+
+.jumbo {
+  height: 400px;
+  background-image: url(../public/jumbotron.jpg);
+  background-size: cover
+}
+
+.center {
+  margin-top: 50px;
+  justify-content: center;
 }
