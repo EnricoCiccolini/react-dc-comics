@@ -16,7 +16,7 @@ export default function Main() {
                     <CardGenerator array={array} />
                 </div>
                 <div>
-                    <button className="flex btn-load">load more</button>
+                    <button className="flex btn-load">LOAD MORE</button>
                 </div>
 
             </main>
